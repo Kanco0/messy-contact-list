@@ -19,7 +19,7 @@ scripts/ → Python scripts for cleaning
 
 <hr>
 <h3>🫧 The Cleaning Procces:</h3>
-ok first thing after using <code>print(df)</code>
+ok first thing after using <code>print(df)</code><br>
 is to clean numbers to the same identical number format using regex. it deletes everything that isn’t a number, such as spaces or symbols, and then creates a new column which is named <code>Clean_Phone</code>. it has the correct unified format and only numbers that are 10 or 11 characters long. checking the <code>Clean_Phone</code> column is important because it’s cleaned, unified, and has no spaces or symbols. this will be good for sending texts or contacting in the future.
 
 in the names, I used <code>.strip()</code> and made the first letter uppercase using <code>.title()</code>.
