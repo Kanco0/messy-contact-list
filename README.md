@@ -10,9 +10,7 @@ What I Did:
 I focused on making the data usable instead of trying to “guess” or fix broken information. I standardized phone numbers into one clear format, cleaned names so they looked consistent, checked that emails followed a valid structure, and removed duplicate entries. Records that could not be trusted were filtered out rather than forced to fit.
 
 The Result:
-The dataset was reduced from about 1,000 rows to 31 reliable contacts. While the final dataset is much smaller, every remaining record is clean, consistent, and ready for real use. This project prioritizes data quality over quantity and reflects real-world data cleaning decisions.
-ok first thing after using <code>print(df)</code>
-is to clean numbers to the same identical number format using regex. it deletes everything that isn’t a number, such as spaces or symbols, and then creates a new column which is named <code>Clean_Phone</code>. it has the correct unified format and only numbers that are 10 or 11 characters long. checking the <code>Clean_Phone</code> column is important because it’s cleaned, unified, and has no spaces or symbols. this will be good for sending texts or contacting in the future.
+After cleaning and validating the records, only contacts with complete and usable information were kept. The dataset was reduced from about 1,000 rows to 31 reliable contacts. While much smaller, every remaining entry is accurate, consistent, and ready for real-world use. This project prioritizes data quality over quantity and reflects realistic data cleaning decisions.
 
 📁 Repository contains:
 raw_data/ → Original CSV files
